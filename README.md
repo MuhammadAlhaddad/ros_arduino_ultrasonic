@@ -2,7 +2,7 @@
 
 Connect Ultrasonic sensor with Arduino Uno as following
 
-* Ultrasonic               Arduino
+ Ultrasonic     ---          Arduino
  * Vcc ------------------  5v 
  * GND ------------------  GND
  * echo -----------------  Pin 2
