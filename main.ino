@@ -22,9 +22,12 @@ void setup() {
   pinMode(echoPin, INPUT); // Sets the echoPin as an INPUT
 
 }
+
 long publisher_timer;
+
 void loop() {
-  if (millis() > publisher_timer) {
+  if (millis() > publisher_timer) 
+  {
   // Clears the trigPin condition
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
